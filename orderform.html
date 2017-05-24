@@ -1,0 +1,192 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/mastwer.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+<link rel="stylesheet" type="text/css" href="mainstyle.css">
+</head>
+
+<body id="Background">
+<img class="left" src="Logo.png" height="55px" width="55px">
+<h1 id="Heading">Fish~Tastic</h1>
+<h1 id="Nav_bar">
+ <ul class="main-navigation">
+  <li><a href="index.html">Home</a></li>
+     <li><a href="aboutus.html">About Us</a></li>
+     <li><a href="products.html">Products</a>
+    <ul>
+            <li><a href="our_fish.html">Our Fish</a></li>
+      <li><a href="#">Our Equipments</a>
+        <ul>
+          <li><a href="tanks.html">Tanks</a></li>
+          <li><a href="fishfood.html">Fish Foods</a></li>
+          <li><a href="medication.html">Medication</a></li>
+          <li><a href="decoration.html">Decorations</a></li>    
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="petshop&veterinary.html">Pet Shop & Veterinary</a></li>
+  <li><a href="events.html">Events</a></li>
+  <li><a href="services.html">Services</a></li>
+  <li><a href="contactus.html">Contact us</a></li>
+  <li><a href="orderform.html">Order Form</a></li>
+  <li><a href="feedbackform.html">Feedback Form</a></li>
+  <li><a href="faq.html">FAQ</a></li>
+  <li><a href="references.html">References</a></li>
+</ul>
+</h1>
+<!-- InstanceBeginEditable name="EditRegion3" -->
+<script src="java.js"></script>
+
+<form id="form1" name="form1" method="post" action="" onsubmit="return validateform()">
+   
+    
+    <table width="985" border="1">
+      <tr>
+        <th width="265" scope="row">NAME:</th>
+        <td width="704"><label for="NAME2"></label>
+          <span id="sprytextfield7">
+          <label for="NAME3"></label>
+          <input name="NAME" type="text" id="NAME3" value="" size="50" />
+          </span></td>
+        </tr>
+      <tr>
+        <th scope="row">ADDRESS:</th>
+        <td><label for="ADDRESS"></label>
+          <span id="sprytextfield6">
+          <label for="ADDRESS"></label>
+          </span><label for="NAME"></label>
+          <span id="sprytextfield10">
+          <label for="Address"></label>
+          <input name="Address" type="text" id="Address" value="" size="70" />
+          </span></td>
+        </tr>
+      <tr>
+        <th scope="row">CITY:</th>
+        <td><label for="CITY"></label>
+          <span id="sprytextfield5">
+          <label for="CITY"></label>
+          <input name="CITY" type="text" id="CITY" size="30" maxlength="30" />
+          </span></td>
+        </tr>
+      <tr>
+        <th scope="row">STATE:</th>
+        <td><label for="STATE"></label>
+          <span id="sprytextfield4">
+          <label for="STATE"></label>
+          <input name="STATE" type="text" id="STATE" size="30" maxlength="30" />
+          </span></td>
+        </tr>
+      <tr>
+        <th scope="row">POSTAL CODE:</th>
+        <td><label for="POSTAL CODE"></label>
+          <span id="sprytextfield3">
+          <label for="POSTAL CODE"></label>
+          <input name="POSTALCODE" type="text" id="POSTAL CODE" size="15" maxlength="6" />
+          </span></td>
+        </tr>
+      <tr>
+        <th scope="row">CONTACT NO.:</th>
+        <td><label for="CONTACT NUMBER"></label>
+          <span id="sprytextfield2">
+          <label for="CONTACT NUMBER"></label>
+          <input name="CONTACTNUMBER" type="text" id="CONTACT NUMBER" size="20" maxlength="8" />
+          </span></td>
+        </tr>
+      <tr>
+        <th scope="row">EMAIL:</th>
+        <td><label for="EMAIL"></label>
+          <span id="sprytextfield1">
+          <label for="EMAIL"></label>
+          <input name="EMAIL" type="text" id="EMAIL" size="40" />
+          </span></td>
+        </tr>
+      <tr>
+        <th scope="row">ITEM CODE:</th>
+        <td><label for="ITEM CODE"></label>
+          <span id="spryselect2">
+          <label for="ITEM CODE"></label>
+          <select name="ITEMCODE" id="ITEMCODE" onchange="myCalc()">
+            <option value="680">T01</option>
+            <option value="349">T02</option>
+            <option value="39.99">T03</option>
+            <option value="18.99">T04</option>
+            <option value="6.5">B01</option>
+            <option value="11.99">B02</option>
+            <option value="2.99">B03</option>
+            <option value="43">M01</option>
+            <option value="1.99">M02</option>
+            <option value="8.99">M03</option>
+            <option value="17.99">D01</option>
+            <option value="3">D02</option>
+            <option value="14.99">D03</option>
+          </select>
+          </span></td>
+        </tr>
+      <tr>
+        <th scope="row">QUANTITY:</th>
+        <td><select name="QUANTITY" id="QUANTITY" onchange="myCalc()">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select></td>
+      </tr>
+      <tr>
+        <th scope="row">TOTAL:</th>
+        <td><label for="TOTAL"></label>
+          <input type="text" name="TOTAL" id="TOTAL" /></td>
+      </tr>
+      <tr>
+        <th scope="row">PAYMENT METHOD:</th>
+        <td><span id="spryradio1">
+          <label>
+            <input type="radio" name="PAYMENTMETHOD" value="MASTER" id="PAYMENT METHOD_0" />
+            MASTER CARD</label>
+          <br />
+          <label>
+            <input type="radio" name="PAYMENT METHOD" value="VISA" id="PAYMENT METHOD_1" />
+            VISA</label>
+          <br />
+         <br />
+          </span></td>
+      </tr>
+      <tr>
+        <th scope="row">CREDIT CARD NUMBER:</th>
+        <td><span id="sprytextfield8">
+          <label for="CREDIT CARD NUMBER"></label>
+          <input type="text" name="CREDITCARDNUMBER" id="CREDIT CARD NUMBER" />
+          </span></td>
+      </tr>
+      <tr>
+        <th scope="row">CVV:</th>
+        <td><input name="CVV" type="text" id="CVV" size="10" maxlength="4" /></td>
+      </tr>
+      <tr>
+        <th scope="row">COMMENTS:</th>
+        <td><label for="Comments"></label>
+          <textarea name="Comments" id="Comments" cols="45" rows="5"></textarea></td>
+      </tr>
+      <tr>
+        <th scope="row">&nbsp;</th>
+        <td><span id="spryselect1">
+          <label for="QUANTITY"></label>
+          </span><span id="sprytextfield9">
+          <label for="CVV"></label>
+          </span>
+          <input type="submit" name="submit" id="submit" value="Submit" /> <input type="reset" name="reset" id="reset" value="Reset" /></td>
+        </tr>
+      </table>
+  </form>
+  <script type="text/javascript">
+
+
+<!-- InstanceEndEditable -->
+</body>
+<!-- InstanceEnd --></html>

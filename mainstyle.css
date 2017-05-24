@@ -1,0 +1,157 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+#Welcome {
+    text-align: center;
+    color: black;
+    font-size: 24px;
+}
+#Background {
+    background-image: url(Background%205.jpg);
+    background-size: cover;
+}
+#Banner {
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif" ;
+	text-align: center;
+	font-size:50px; 
+	font-stretch: ultra-condensed;
+	font-weight: 200;
+	color:cornflowerblue;
+}
+
+#Heading {
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	text-align: left;
+	font-size: 30px;
+
+}
+
+#sideheading {
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif" ;
+	text-align:left;
+	font-size:35px;
+	font-stretch:ultra-condensed;
+	font-weight: 200;
+	color:aqua;
+}
+
+#Content {
+	font-style:normal;
+	font-family:Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
+	text-align:left;
+	font-size:18px;
+	word-spacing:6px;
+	font-weight:200;
+}
+
+#content {
+		font-style:normal;
+	text-align:left;
+	word-spacing:6px;
+	font-weight:200;
+    font-size: 18px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+#Nav_bar {
+    font-size: 18px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: #1bc2a2;
+}
+ul li {
+  display: block;
+  position: relative;
+  float: left;
+  background: #1bc2a2;
+}
+li ul { display: none; }
+
+ul li a {
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+  white-space: nowrap;
+  color: #fff;
+}
+ul li a:hover { background: #2c3e50; }
+
+li:hover > ul {
+  display: block;
+  position: absolute;
+}
+
+li:hover li { float: none; }
+li:hover a { background: #1bc2a2; }
+li:hover li a:hover { background: #2c3e50; }
+.main-navigation li ul li { border-top: 0; }
+
+ul ul ul {
+  left: 100%;
+  top: 0;
+}
+
+ul:before,
+
+ul:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+ul:after { clear: both; }
+
+#Heading {
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+
+#Info {
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+img.displayed {
+    float: right;
+    margin-right: inherit;
+}
+img.left {
+    float: left;
+}
+#Logo {
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 30px;
+}
+
+#Products {
+    background-image: url(Ocean.gif);
+    background-size: cover;
+}
+
+#pricelist {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#Title {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 32px;
+    float: right;
+    font-family: 'Anton', sans-serif;
+}
+#About Us {
+
+}
+#Pets {
+    text-align: center;
+    font-size: 32px;
+}
+#Services{
+    font-family: 'Rasa', serif;
+    font-size: 20px;
+}
+#Sign{
+    text-align: right;
+    font-size: 24px;
+}

@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+#Banner {
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif" ;
+	text-align: center;
+	font-size:50px; 
+	font-stretch: ultra-condensed;
+	font-weight: 200;
+	color:cornflowerblue;
+}
+
+#Heading {
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	text-align: left;
+	font-size: 30px;
+
+}
+
+#sideheading {
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif" ;
+	text-align:left;
+	font-size:35px;
+	font-stretch:ultra-condensed;
+	font-weight: 200;
+	color:aqua;
+}
+
+#Content {
+	font-style:normal;
+	font-family:Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
+	text-align:left;
+	font-size:18px;
+	word-spacing:6px;
+	font-weight:200;
+}
+
+#content2 {
+		font-style:normal;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	text-align:left;
+	font-size:18px;
+	word-spacing:6px;
+	font-weight:200;
+}
+
+
+
+#templatelist ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:aqua;
+}
+
+#templatelist li {
+    float: left;
+}
+
+#templatelist li a {
+    display: inline-block;
+    color:blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+	font-size: 19px;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-weight:200;	
+}
+
+#templatelist li a:hover {
+    background-color:azure;
+}
+
+
